@@ -29,3 +29,8 @@ $('.range-slider').range({
     labelClass: 'radioLabel'     //class applied to the label element for each individual radio button
 });
 ```
+
+##Requirements
+
+* This runs a Modernizr inputtypes test to see if the browser running supports range inputs, make sure you load this before TheLoneRange!
+* jQuery. Obviously.
