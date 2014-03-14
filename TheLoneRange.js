@@ -9,7 +9,7 @@
             this.type = type;
             this.$element = $(elem);
             this.options = this.getOptions(opts);
-            this.mode = 'thelonerange';
+            this.mode = 'range';
 
             this.setup();
         },
